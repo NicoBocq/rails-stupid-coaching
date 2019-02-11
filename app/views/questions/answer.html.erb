@@ -1,0 +1,22 @@
+<h1>Question</h1>
+
+<!-- <blockquote class="blockquote">
+ <p class="mb-0"> <%= "#{params[:question]}" %></p>
+   <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+
+</blockquote>
+ -->
+
+<div class="answer">
+  <p><%= @question %></p>
+ <p class="author">You</p>
+</div>
+
+<div class="answer" style="background-color: yellow;">
+  <p><%= @answer %></p>
+ <p class="author">Your coach</p>
+ </div>
+
+<p><%= link_to "Ask another question", ask_path %>
+
+
